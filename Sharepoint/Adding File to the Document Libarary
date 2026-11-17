@@ -1,0 +1,8 @@
+1)Using dyamic content need to pass the file to the """create file sharepoint step""".
+2)if we have a file in dataverse we can giev that directly
+3)WE need to use """"Download file or image action dataverse""
+4)Need to use that in Create file step
+    1)Site
+    2)Document Libarary
+    3)File name
+    4)File content (need to pass dyanmic content here)
