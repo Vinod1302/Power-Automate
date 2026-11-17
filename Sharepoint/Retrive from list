@@ -8,3 +8,12 @@
               6)Order By
               7)Top Count
               8)Limit Columns by view
+
+Limit Columns by view:
+
+      It does not limit rows/items.
+      It limits the columns returned by Power Automate.
+      Suppose your List has 20 columns:
+      But your flow requires only: three
+
+      Create a SharePoint View called:Power Automate View
