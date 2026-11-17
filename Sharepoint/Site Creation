@@ -1,0 +1,17 @@
+1)Send Http Request to sharepoint (We need to use tis to create a sharepoint site)
+    1)Site Address : Need to anyone existing Site Addess
+    2)Method: Post
+    3)URI: _api/SPSiteManager/create
+    4)Body: Json Body
+              {
+                "request": {
+                  "Title": "Vinod Test Site",
+                  "Url": "https://cciitpatna.sharepoint.com/sites/VinodTestSite",
+                  "Lcid": 1033,
+                  "ShareByEmailEnabled": false,
+                  "Description": "Site created from Power Automate",
+                  "WebTemplate": "SITEPAGEPUBLISHING#0",
+                  "SiteDesignId": "00000000-0000-0000-0000-000000000000",
+                  "WebTemplateExtensionId": "00000000-0000-0000-0000-000000000000"
+                }
+              }
