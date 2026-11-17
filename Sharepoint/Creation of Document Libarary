@@ -1,0 +1,10 @@
+Send Http Request Sharepoint     
+        Site: Site name
+        Method:Post
+        URI:_api/web/lists
+        Body: template 101 is Documnet Library
+                {
+                  "Title": "Budget Documents",
+                  "Description": "Stores Budget Request documents",
+                  "BaseTemplate": 101
+                }
