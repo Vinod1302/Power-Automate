@@ -1,0 +1,19 @@
+1)Send Http Request to Sharepoint (We need to use this action to create a list it is used to send request)
+      1)Site: We need to provide the site address where we want to create a List
+      2)Method: Post
+      3)URI: _api/web/lists
+      4) Header: Header will have some additional infromation it will have 
+
+          Content-Type = What I SEND 📤
+          Content-Type: application/json
+          Accept = What I want BACK 📥
+          Accept: application/json
+
+      4)Body:
+              {
+                "Title": "Budget Requests",
+                "Description": "Stores budget request information",
+                "BaseTemplate": 100,
+                "AllowContentTypes": true,
+                "ContentTypesEnabled": true
+              }
