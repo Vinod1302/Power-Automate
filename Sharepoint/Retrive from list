@@ -4,3 +4,7 @@
               3)Limit entries to Folder we can make folders and we can search from that only
                     Folders List settings-----> Advance Settings----->Make folders need to make it as yes.
               4)Inlcude nested folders : Means we can make nested folders insode a folder so if we keep it yes we will include them also.
+              5)Filter Query
+              6)Order By
+              7)Top Count
+              8)Limit Columns by view
