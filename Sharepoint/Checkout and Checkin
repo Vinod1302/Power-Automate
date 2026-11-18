@@ -1,0 +1,23 @@
+First thing is checkout which helps us to lock a paticular file to avoid changes from others.
+  Checkout:
+            Checkout will have 3 things
+              1)Site Address
+              2)Libarary name
+              3)Id
+Id :
+      For getting id we need to another action before this action """Get file metadata""" and in that we need to give site and folder or path
+we can use that id in next steps
+
+Once file checkout then we do modifications to that file using different actions based on requirement. if we want to 
+chnage name """Send HTTP Request""" from sharepoint we need to this and in body we can chnage the name.
+
+and once after that we need to """Check in""" then only file will be unlocked
+
+Check in:
+      Check will contain
+      1)Site Address
+      2)Libarary name
+      3)Id
+      4)Checkin type: Maor or minor like that and overwrite file(Mandatory)
+      5)Comments:Mandatory
+      6)Title: Mandatory
